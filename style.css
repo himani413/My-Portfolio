@@ -270,6 +270,7 @@ section {
   transition: all 300ms ease;
   padding: 1rem;
   width: 10rem;
+  border-radius: 20px;
   
 }
 
