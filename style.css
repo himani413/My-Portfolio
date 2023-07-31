@@ -331,6 +331,10 @@ section {
   bottom: 2.5rem;
 }
 
+.text-container{
+  margin-bottom: 50px;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
