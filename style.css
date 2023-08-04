@@ -106,6 +106,8 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  margin-left: 150px;
+  z-index: 2;
 }
 
 .hamburger-icon {
