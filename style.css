@@ -204,6 +204,7 @@ section {
 .rotate{
   border: 10px solid #000;
   animation: emphasize 5s ease-in-out infinite;
+  border-radius: 10%;
   
 }
 @keyframes emphasize {
@@ -211,7 +212,7 @@ section {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.1); /* the scale value to determine the level of emphasis */
+    transform: scale(1.025); /* the scale value to determine the level of emphasis */
   }
 }
 
@@ -220,11 +221,12 @@ section {
   transition: transform 0.5s ease-in-out;
 }
 .project-img:hover {
-  transform: scale(1.1); /* the scale value to determine the level of emphasis */
+  transform: scale(1.05); /* the scale value to determine the level of emphasis */
 }
 
 .section__pic-container {
-  border: 20px solid #000;
+   border: 30px solid #000; 
+   border-radius: 10%;
   background-color: black;
   display: flex;
   justify-content: center;
