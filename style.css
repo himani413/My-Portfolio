@@ -33,9 +33,12 @@ a,
 nav,
 .nav-links {
   display: flex;
-  
+  width: fit-content;
 }
 
+#navlinks{
+  margin-left: 700px;
+}
 
 nav {
   justify-content: space-around;
@@ -61,7 +64,11 @@ a:hover {
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
-
+#namelogo{
+  width: 300px;
+  height: auto;
+  margin:0;
+}
 .logo {
   font-size: 2rem;
   

@@ -5,7 +5,8 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-function myFunction1() {
+//fuction for display the education qualifications
+function toggleEducation() {
   var x = document.getElementById("myDiv1");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -14,7 +15,8 @@ function myFunction1() {
   }
 }
 
-function myFunction2() {
+//fuction for display the volanteering experience
+function toggleVolanteering() {
   var x = document.getElementById("myDiv2");
   if (x.style.display === "none") {
     x.style.display = "block";

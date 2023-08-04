@@ -1,3 +1,6 @@
+
+/*allows the web page to adapt to different screen sizes, resolutions and devices*/
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
