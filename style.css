@@ -103,11 +103,13 @@ a:hover {
   
 }
 #hamburger-namelogo{
-    width: 300px;
+    width: 250px;
     height: auto;
-    margin-left: 30px;
+    margin-right: 20px;
+    float: left;
 }
 .hamburger-menu {
+  position: relative;
   display: flex;
   z-index: 2;
   flex-direction: column;
@@ -120,7 +122,7 @@ a:hover {
   height: 24px;
   width: 40px;
   cursor: pointer;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .hamburger-icon span {
@@ -134,8 +136,8 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #fcfcfc;
-  /* width: fit-content; */
+  background-color: white;
+  width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
