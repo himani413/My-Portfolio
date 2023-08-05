@@ -391,6 +391,11 @@ section {
 
 .text-container{
   margin-bottom: 50px;
+} 
+
+.text-container p{
+  font-size: 16px;
+  text-align: justify;
 }
 
 .details-container {
@@ -524,11 +529,11 @@ article .icon {
 .contact-info-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 0.4rem;
-  margin: 1rem;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 20px 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact-info-container p {
@@ -536,7 +541,7 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
   margin-right: 5px;
 }
 
@@ -548,9 +553,26 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0;
+  background-color: #000;
+}
+
+#footer-nav{
+  background-color: #000;
 }
 
 footer p {
   text-align: center;
+  background-color: #000;
+  color: rgb(184, 184, 184);
+  padding-top: 30px;
+}
+
+.footer-nav-links, .footer-nav-links a{
+  color:  #fcfcfc;
+  background-color: #000;
+}
+
+#footerlinks ul{
+  background-color: #000;
 }
