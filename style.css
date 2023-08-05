@@ -106,7 +106,7 @@ a:hover {
   
     width: 300px;
     height: auto;
-    margin-left: 30px;
+    margin: auto;
 }
 .hamburger-menu {
   position: relative;
@@ -124,7 +124,7 @@ a:hover {
   height: 24px;
   width: 40px;
   cursor: pointer;
-  align-items: center;
+  margin-bottom: 5px;
 }
 
 .hamburger-icon span {
