@@ -37,7 +37,7 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
+    width: 60%;
     height: auto;
     margin: 0 auto 2rem;
   }
@@ -91,8 +91,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 60%;
+    height: auto;
     justify-content: center;
   }
   .pro-pic{
