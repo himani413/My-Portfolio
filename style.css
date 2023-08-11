@@ -211,7 +211,7 @@ section {
 }
 
 /* Apply the animation to the image */
-.rotate{
+.pro-pic{
   border: 10px solid #000;
   animation: emphasize 5s ease-in-out infinite;
   border-radius: 10%;
@@ -235,8 +235,8 @@ section {
 }
 
 .section__pic-container {
-   border: 30px solid #000; 
-   border-radius: 10%;
+  border: 30px solid #000; 
+  border-radius: 10%;
   background-color: black;
   display: flex;
   justify-content: center;

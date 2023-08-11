@@ -44,6 +44,11 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .pro-pic{
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -89,6 +94,10 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+  .pro-pic{
+    width: 100%;
+    height: auto;
   }
   .section__text__p2 {
     font-size: 1.25rem;
